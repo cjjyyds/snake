@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-let dist = path.resolve(__dirname, './dist'); 
+let dist = path.resolve(__dirname, './dist');
 
 module.exports = {
   entry: {
