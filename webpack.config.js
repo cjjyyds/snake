@@ -20,7 +20,7 @@ module.exports = {
   ],
   output: {
     path: dist,
-    filename: 'index.js', 
+    filename: 'index.js',
     clean: true,
   },
   // mode: 'production',
